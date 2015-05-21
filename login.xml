@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE login-page [
+<!ELEMENT user (username, password)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+]>
+
+<login-page>
+	<user>
+	<username>Joy</username>
+	<password>1234</password>
+	</user>
+</login-page>
