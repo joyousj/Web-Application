@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<js:schema xmlns:js="http://www.w3.org/2001/XMLSchema">
+<js:element name="login-page">
+	<js:complexType>
+		<js:sequence>
+			<js:element name="user">
+				<js:complexType>
+				<js:sequence>
+					<js:element name="username" type="js:string"/>
+					<js:element name="password" type="js:string"/>
+				</js:sequence>
+				</js:complexType>
+			</js:element>
+		</js:sequence>
+	</js:complexType>
+</js:element>
+</js:schema>
